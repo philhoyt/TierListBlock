@@ -1,0 +1,67 @@
+# Tier List Block
+
+![Tier List Block screenshot](assets/screenshot-1.png)
+
+A WordPress block plugin for creating TierMaker-style tier lists natively in the block editor.
+
+## Blocks
+
+The plugin registers four nested blocks:
+
+| Block | Description |
+|---|---|
+| `tier-list/tier-list` | Outer wrapper — contains all tier rows |
+| `tier-list/tier-item` | A single tier row |
+| `tier-list/tier-label` | The rank label cell (S, A, B…) |
+| `tier-list/tier-content` | The content zone for ranked items |
+
+## Features
+
+- Five pre-colored tier rows (S, A, B, C, D) inserted by default
+- Add additional rows via the **Tiers** panel in the block sidebar
+- Reorder rows with native Gutenberg block mover controls
+- Customizable label background and text colors per row
+
+## Requirements
+
+- WordPress 6.6+
+- PHP 7.4+
+
+## Development
+
+**Install dependencies**
+
+```bash
+npm install
+composer install
+```
+
+**Start development build with watch**
+
+```bash
+npm start
+```
+
+**Production build**
+
+```bash
+npm run build
+```
+
+**Linting**
+
+```bash
+npm run lint:js
+npm run lint:css
+npm run lint:php
+```
+
+**Create plugin zip**
+
+```bash
+npm run plugin-zip
+```
+
+## License
+
+GPL-2.0-or-later — see [LICENSE](https://www.gnu.org/licenses/gpl-2.0.html)

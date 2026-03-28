@@ -2,7 +2,7 @@
 Contributors:      philhoyt
 Tags:              block, tier list, tiermaker, ranking
 Requires at least: 6.6
-Tested up to:      6.9.4
+Tested up to:      6.9
 Stable tag:        1.0.0
 Requires PHP:      7.4
 License:           GPL-2.0-or-later
@@ -12,7 +12,7 @@ Create TierMaker-style tier lists natively in the block editor.
 
 == Description ==
 
-Tier List Block lets you build ranking lists directly in the WordPress block editor — no third-party embeds, no shortcodes. Each tier list starts with five pre-colored rows (S, A, B, C, D) that you can reorder, rename, or recolor. Add any block content to each tier's content zone.
+Tier List Block lets you build ranking lists directly in the WordPress block editor. Each tier list starts with five pre-colored rows (S, A, B, C, D) that you can reorder, rename, or recolor. Add any block content to each tier's content zone.
 
 The frontend output is static HTML — no JavaScript is loaded for visitors.
 

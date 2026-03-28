@@ -1,4 +1,11 @@
-import { useBlockProps, useInnerBlocksProps } from '@wordpress/block-editor';
+import {
+	InspectorControls,
+	useBlockProps,
+	useInnerBlocksProps,
+} from '@wordpress/block-editor';
+import { Button, PanelBody } from '@wordpress/components';
+import { createBlock } from '@wordpress/blocks';
+import { useDispatch } from '@wordpress/data';
 
 const ALLOWED_BLOCKS = [ 'tier-list/tier-item' ];
 
@@ -65,11 +72,40 @@ const TEMPLATE = [
 	],
 ];
 
-export default function Edit() {
+export default function Edit( { clientId } ) {
+	const { insertBlock } = useDispatch( 'core/block-editor' );
+
+	const addTierItem = () => {
+		insertBlock(
+			createBlock( 'tier-list/tier-item', {}, [
+				createBlock(
+					'tier-list/tier-label',
+					{ style: { color: { background: '#C0FF7F' } } },
+					[ createBlock( 'core/paragraph', { align: 'center' } ) ]
+				),
+				createBlock( 'tier-list/tier-content', {} ),
+			] ),
+			undefined,
+			clientId
+		);
+	};
+
 	const blockProps = useBlockProps();
 	const innerBlocksProps = useInnerBlocksProps( blockProps, {
 		allowedBlocks: ALLOWED_BLOCKS,
 		template: TEMPLATE,
 	} );
-	return <div { ...innerBlocksProps } />;
+
+	return (
+		<>
+			<InspectorControls>
+				<PanelBody title="Tiers">
+					<Button variant="secondary" onClick={ addTierItem }>
+						Add Tier Row
+					</Button>
+				</PanelBody>
+			</InspectorControls>
+			<div { ...innerBlocksProps } />
+		</>
+	);
 }
