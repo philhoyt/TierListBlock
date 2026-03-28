@@ -1,0 +1,35 @@
+.wp-block-tier-list-tier-content {
+	flex: 1 1 auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: flex-start;
+	gap: 8px;
+	padding: 8px;
+	min-height: 80px;
+
+	// Frontend: prevent child blocks from stretching to full width
+	> * {
+		flex: 0 0 auto;
+		width: auto;
+		max-width: 100%;
+	}
+
+	// Editor: InnerBlocks inserts a layout wrapper — make it flex too
+	> .block-editor-block-list__layout {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 8px;
+		width: 100%;
+
+		> .wp-block {
+			flex: 0 0 auto;
+			width: auto;
+			max-width: 100%;
+			margin: 0;
+		}
+	}
+}

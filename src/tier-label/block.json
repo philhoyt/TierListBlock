@@ -1,0 +1,26 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "tier-list/tier-label",
+	"version": "1.0.0",
+	"title": "Tier Label",
+	"category": "design",
+	"description": "The rank label cell for a tier row.",
+	"icon": "tag",
+	"textdomain": "tier-list-block",
+	"parent": [ "tier-list/tier-item" ],
+	"supports": {
+		"html": false,
+		"inserter": false,
+		"color": {
+			"background": true,
+			"text": true,
+			"__experimentalDefaultControls": {
+				"background": true,
+				"text": true
+			}
+		}
+	},
+	"editorScript": "file:./index.js",
+	"style": "file:./style-index.css"
+}

@@ -1,0 +1,44 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "tier-list/tier-list",
+	"version": "1.0.0",
+	"title": "Tier List",
+	"category": "design",
+	"description": "Create a TierMaker-style ranking list.",
+	"keywords": [ "tier", "ranking", "tiermaker", "list" ],
+	"icon": "chart-bar",
+	"textdomain": "tier-list-block",
+	"attributes": {
+		"style": {
+			"type": "object",
+			"default": {
+				"color": {
+					"background": "#000000"
+				}
+			}
+		},
+		"layout": {
+			"type": "object",
+			"default": {
+				"type": "flex",
+				"orientation": "vertical"
+			}
+		}
+	},
+	"supports": {
+		"html": false,
+		"align": [ "wide", "full" ],
+		"color": {
+			"background": true,
+			"text": false,
+			"gradients": false,
+			"__experimentalDefaultControls": {
+				"background": true
+			}
+		},
+		"layout": true
+	},
+	"editorScript": "file:./index.js",
+	"style": "file:./style-index.css"
+}

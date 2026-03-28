@@ -1,0 +1,14 @@
+.wp-block-tier-list-tier-label {
+	flex: 0 0 100px;
+	width: 100%;
+	font-size: 1em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	p {
+		margin: 0;
+		text-align: center;
+		color: inherit;
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "tier-list/tier-item",
+	"version": "1.0.0",
+	"title": "Tier Item",
+	"category": "design",
+	"description": "A single tier row.",
+	"icon": "menu",
+	"textdomain": "tier-list-block",
+	"parent": [ "tier-list/tier-list" ],
+	"attributes": {
+		"style": {
+			"type": "object",
+			"default": {
+				"color": {
+					"background": "#1A1A18"
+				}
+			}
+		}
+	},
+	"supports": {
+		"html": false,
+		"inserter": false,
+		"color": {
+			"background": true,
+			"text": false,
+			"gradients": false
+		}
+	},
+	"editorScript": "file:./index.js",
+	"style": "file:./style-index.css"
+}

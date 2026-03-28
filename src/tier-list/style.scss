@@ -1,0 +1,16 @@
+.wp-block-tier-list-tier-list {
+	display: flex;
+	flex-direction: column;
+	gap: 1px;
+
+	&.is-layout-flex {
+		gap: 1px;
+		row-gap: 1px;
+		column-gap: 1px;
+	}
+
+	> .wp-block-tier-list-tier-item {
+		margin-block-start: 0;
+		margin-block-end: 0;
+	}
+}
