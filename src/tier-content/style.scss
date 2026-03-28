@@ -11,7 +11,7 @@
 
 	// Frontend: prevent child blocks from stretching to full width
 	> * {
-		flex: 0 0 auto;
+		flex: 0 1 auto;
 		width: auto;
 		max-width: 100%;
 	}
@@ -26,7 +26,7 @@
 		width: 100%;
 
 		> .wp-block {
-			flex: 0 0 auto;
+			flex: 0 1 auto;
 			width: auto;
 			max-width: 100%;
 			margin: 0;
