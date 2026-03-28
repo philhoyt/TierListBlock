@@ -18,6 +18,17 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
+require_once plugin_dir_path( __FILE__ ) . 'lib/plugin-update-checker/plugin-update-checker.php';
+
+use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
+
+$tier_list_update_checker = PucFactory::buildUpdateChecker(
+	'https://github.com/philhoyt/TierListBlock/',
+	__FILE__,
+	'tier-list-block'
+);
+$tier_list_update_checker->getVcsApi()->enableReleaseAssets();
+
 /**
  * Registers all four tier list blocks.
  */
