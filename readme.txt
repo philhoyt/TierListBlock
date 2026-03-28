@@ -18,9 +18,11 @@ The frontend output is static HTML — no JavaScript is loaded for visitors.
 
 == Installation ==
 
-1. Upload the plugin folder to `/wp-content/plugins/tier-list-block`.
-2. Activate the plugin through the **Plugins** screen in WordPress.
-3. Open any post or page in the block editor and search for **Tier List**.
+1. Download `tier-list-block.zip` from the latest release on the [GitHub Releases page](https://github.com/philhoyt/TierListBlock/releases).
+2. In your WordPress admin, go to **Plugins → Add New Plugin → Upload Plugin**.
+3. Choose the downloaded zip and click **Install Now**.
+4. Click **Activate Plugin**.
+5. Open any post or page in the block editor and search for **Tier List**.
 
 == Changelog ==
 

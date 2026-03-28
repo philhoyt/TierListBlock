@@ -22,6 +22,13 @@ The plugin registers four nested blocks:
 - Reorder rows with native Gutenberg block mover controls
 - Customizable label background and text colors per row
 
+## Installation
+
+1. Go to the [Releases page](https://github.com/philhoyt/TierListBlock/releases) and download the `tier-list-block.zip` from the latest release assets.
+2. In your WordPress admin, go to **Plugins → Add New Plugin → Upload Plugin**.
+3. Choose the downloaded zip and click **Install Now**.
+4. Click **Activate Plugin**.
+
 ## Requirements
 
 - WordPress 6.6+
