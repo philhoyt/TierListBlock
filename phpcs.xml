@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ruleset name="Tier List Block">
+	<description>WordPress Coding Standards for the Tier List Block plugin.</description>
+
+	<file>tier-list.php</file>
+
+	<arg name="basepath" value="."/>
+	<arg name="colors"/>
+	<arg value="sp"/>
+
+	<config name="minimum_supported_wp_version" value="6.6"/>
+	<config name="testVersion" value="7.4-"/>
+
+	<rule ref="WordPress"/>
+</ruleset>

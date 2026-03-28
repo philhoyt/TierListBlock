@@ -1,6 +1,8 @@
 import { useBlockProps, useInnerBlocksProps } from '@wordpress/block-editor';
 
-const TEMPLATE = [ [ 'core/paragraph', { placeholder: 'S', align: 'center' } ] ];
+const TEMPLATE = [
+	[ 'core/paragraph', { placeholder: 'S', align: 'center' } ],
+];
 
 export default function Edit() {
 	const blockProps = useBlockProps();
