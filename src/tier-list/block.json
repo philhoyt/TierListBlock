@@ -17,13 +17,6 @@
 					"background": "#000000"
 				}
 			}
-		},
-		"layout": {
-			"type": "object",
-			"default": {
-				"type": "flex",
-				"orientation": "vertical"
-			}
 		}
 	},
 	"supports": {
@@ -36,8 +29,7 @@
 			"__experimentalDefaultControls": {
 				"background": true
 			}
-		},
-		"layout": true
+		}
 	},
 	"editorScript": "file:./index.js",
 	"style": "file:./style-index.css"
