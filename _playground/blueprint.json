@@ -18,7 +18,7 @@
 			"pluginData": {
 				"resource": "git:directory",
 				"url": "https://github.com/philhoyt/TierListBlock",
-				"ref": "feature/playground-blueprint",
+				"ref": "main",
 				"refType": "branch"
 			},
 			"options": {
@@ -35,7 +35,7 @@
 			"step": "importWxr",
 			"file": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/philhoyt/TierListBlock/feature/playground-blueprint/_playground/demo.xml"
+				"url": "https://raw.githubusercontent.com/philhoyt/TierListBlock/main/_playground/demo.xml"
 			}
 		}
 	]
