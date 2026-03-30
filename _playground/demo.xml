@@ -109,52 +109,52 @@
 </div>
 <!-- /wp:tier-list/tier-list -->
 
-<!-- wp:image {"id":2,"sizeSlug":"thumbnail","linkDestination":"none","align":"left"} -->
-<figure class="wp-block-image alignleft size-thumbnail"><img src="https://raw.githubusercontent.com/philhoyt/TierListBlock/main/_playground/sprites/bulbasaur.png" alt="Bulbasaur" class="wp-image-2"/></figure>
+<!-- wp:image {"id":2,"sizeSlug":"thumbnail","linkDestination":"none","align":"left","style":{"spacing":{"margin":{"top":"0","bottom":"0","left":"0","right":"0"}}}} -->
+<figure class="wp-block-image alignleft size-thumbnail" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><img src="https://raw.githubusercontent.com/philhoyt/TierListBlock/main/_playground/sprites/bulbasaur.png" alt="Bulbasaur" class="wp-image-2"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:image {"id":3,"sizeSlug":"thumbnail","linkDestination":"none","align":"left"} -->
-<figure class="wp-block-image alignleft size-thumbnail"><img src="https://raw.githubusercontent.com/philhoyt/TierListBlock/main/_playground/sprites/charmander.png" alt="Charmander" class="wp-image-3"/></figure>
+<!-- wp:image {"id":3,"sizeSlug":"thumbnail","linkDestination":"none","align":"left","style":{"spacing":{"margin":{"top":"0","bottom":"0","left":"0","right":"0"}}}} -->
+<figure class="wp-block-image alignleft size-thumbnail" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><img src="https://raw.githubusercontent.com/philhoyt/TierListBlock/main/_playground/sprites/charmander.png" alt="Charmander" class="wp-image-3"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:image {"id":4,"sizeSlug":"thumbnail","linkDestination":"none","align":"left"} -->
-<figure class="wp-block-image alignleft size-thumbnail"><img src="https://raw.githubusercontent.com/philhoyt/TierListBlock/main/_playground/sprites/charizard.png" alt="Charizard" class="wp-image-4"/></figure>
+<!-- wp:image {"id":4,"sizeSlug":"thumbnail","linkDestination":"none","align":"left","style":{"spacing":{"margin":{"top":"0","bottom":"0","left":"0","right":"0"}}}} -->
+<figure class="wp-block-image alignleft size-thumbnail" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><img src="https://raw.githubusercontent.com/philhoyt/TierListBlock/main/_playground/sprites/charizard.png" alt="Charizard" class="wp-image-4"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:image {"id":5,"sizeSlug":"thumbnail","linkDestination":"none","align":"left"} -->
-<figure class="wp-block-image alignleft size-thumbnail"><img src="https://raw.githubusercontent.com/philhoyt/TierListBlock/main/_playground/sprites/squirtle.png" alt="Squirtle" class="wp-image-5"/></figure>
+<!-- wp:image {"id":5,"sizeSlug":"thumbnail","linkDestination":"none","align":"left","style":{"spacing":{"margin":{"top":"0","bottom":"0","left":"0","right":"0"}}}} -->
+<figure class="wp-block-image alignleft size-thumbnail" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><img src="https://raw.githubusercontent.com/philhoyt/TierListBlock/main/_playground/sprites/squirtle.png" alt="Squirtle" class="wp-image-5"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:image {"id":6,"sizeSlug":"thumbnail","linkDestination":"none","align":"left"} -->
-<figure class="wp-block-image alignleft size-thumbnail"><img src="https://raw.githubusercontent.com/philhoyt/TierListBlock/main/_playground/sprites/pikachu.png" alt="Pikachu" class="wp-image-6"/></figure>
+<!-- wp:image {"id":6,"sizeSlug":"thumbnail","linkDestination":"none","align":"left","style":{"spacing":{"margin":{"top":"0","bottom":"0","left":"0","right":"0"}}}} -->
+<figure class="wp-block-image alignleft size-thumbnail" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><img src="https://raw.githubusercontent.com/philhoyt/TierListBlock/main/_playground/sprites/pikachu.png" alt="Pikachu" class="wp-image-6"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:image {"id":7,"sizeSlug":"thumbnail","linkDestination":"none","align":"left"} -->
-<figure class="wp-block-image alignleft size-thumbnail"><img src="https://raw.githubusercontent.com/philhoyt/TierListBlock/main/_playground/sprites/jigglypuff.png" alt="Jigglypuff" class="wp-image-7"/></figure>
+<!-- wp:image {"id":7,"sizeSlug":"thumbnail","linkDestination":"none","align":"left","style":{"spacing":{"margin":{"top":"0","bottom":"0","left":"0","right":"0"}}}} -->
+<figure class="wp-block-image alignleft size-thumbnail" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><img src="https://raw.githubusercontent.com/philhoyt/TierListBlock/main/_playground/sprites/jigglypuff.png" alt="Jigglypuff" class="wp-image-7"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:image {"id":8,"sizeSlug":"thumbnail","linkDestination":"none","align":"left"} -->
-<figure class="wp-block-image alignleft size-thumbnail"><img src="https://raw.githubusercontent.com/philhoyt/TierListBlock/main/_playground/sprites/gengar.png" alt="Gengar" class="wp-image-8"/></figure>
+<!-- wp:image {"id":8,"sizeSlug":"thumbnail","linkDestination":"none","align":"left","style":{"spacing":{"margin":{"top":"0","bottom":"0","left":"0","right":"0"}}}} -->
+<figure class="wp-block-image alignleft size-thumbnail" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><img src="https://raw.githubusercontent.com/philhoyt/TierListBlock/main/_playground/sprites/gengar.png" alt="Gengar" class="wp-image-8"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:image {"id":9,"sizeSlug":"thumbnail","linkDestination":"none","align":"left"} -->
-<figure class="wp-block-image alignleft size-thumbnail"><img src="https://raw.githubusercontent.com/philhoyt/TierListBlock/main/_playground/sprites/magikarp.png" alt="Magikarp" class="wp-image-9"/></figure>
+<!-- wp:image {"id":9,"sizeSlug":"thumbnail","linkDestination":"none","align":"left","style":{"spacing":{"margin":{"top":"0","bottom":"0","left":"0","right":"0"}}}} -->
+<figure class="wp-block-image alignleft size-thumbnail" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><img src="https://raw.githubusercontent.com/philhoyt/TierListBlock/main/_playground/sprites/magikarp.png" alt="Magikarp" class="wp-image-9"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:image {"id":10,"sizeSlug":"thumbnail","linkDestination":"none","align":"left"} -->
-<figure class="wp-block-image alignleft size-thumbnail"><img src="https://raw.githubusercontent.com/philhoyt/TierListBlock/main/_playground/sprites/gyarados.png" alt="Gyarados" class="wp-image-10"/></figure>
+<!-- wp:image {"id":10,"sizeSlug":"thumbnail","linkDestination":"none","align":"left","style":{"spacing":{"margin":{"top":"0","bottom":"0","left":"0","right":"0"}}}} -->
+<figure class="wp-block-image alignleft size-thumbnail" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><img src="https://raw.githubusercontent.com/philhoyt/TierListBlock/main/_playground/sprites/gyarados.png" alt="Gyarados" class="wp-image-10"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:image {"id":11,"sizeSlug":"thumbnail","linkDestination":"none","align":"left"} -->
-<figure class="wp-block-image alignleft size-thumbnail"><img src="https://raw.githubusercontent.com/philhoyt/TierListBlock/main/_playground/sprites/eevee.png" alt="Eevee" class="wp-image-11"/></figure>
+<!-- wp:image {"id":11,"sizeSlug":"thumbnail","linkDestination":"none","align":"left","style":{"spacing":{"margin":{"top":"0","bottom":"0","left":"0","right":"0"}}}} -->
+<figure class="wp-block-image alignleft size-thumbnail" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><img src="https://raw.githubusercontent.com/philhoyt/TierListBlock/main/_playground/sprites/eevee.png" alt="Eevee" class="wp-image-11"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:image {"id":12,"sizeSlug":"thumbnail","linkDestination":"none","align":"left"} -->
-<figure class="wp-block-image alignleft size-thumbnail"><img src="https://raw.githubusercontent.com/philhoyt/TierListBlock/main/_playground/sprites/snorlax.png" alt="Snorlax" class="wp-image-12"/></figure>
+<!-- wp:image {"id":12,"sizeSlug":"thumbnail","linkDestination":"none","align":"left","style":{"spacing":{"margin":{"top":"0","bottom":"0","left":"0","right":"0"}}}} -->
+<figure class="wp-block-image alignleft size-thumbnail" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><img src="https://raw.githubusercontent.com/philhoyt/TierListBlock/main/_playground/sprites/snorlax.png" alt="Snorlax" class="wp-image-12"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:image {"id":13,"sizeSlug":"thumbnail","linkDestination":"none","align":"left"} -->
-<figure class="wp-block-image alignleft size-thumbnail"><img src="https://raw.githubusercontent.com/philhoyt/TierListBlock/main/_playground/sprites/mewtwo.png" alt="Mewtwo" class="wp-image-13"/></figure>
+<!-- wp:image {"id":13,"sizeSlug":"thumbnail","linkDestination":"none","align":"left","style":{"spacing":{"margin":{"top":"0","bottom":"0","left":"0","right":"0"}}}} -->
+<figure class="wp-block-image alignleft size-thumbnail" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><img src="https://raw.githubusercontent.com/philhoyt/TierListBlock/main/_playground/sprites/mewtwo.png" alt="Mewtwo" class="wp-image-13"/></figure>
 <!-- /wp:image -->
 ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
