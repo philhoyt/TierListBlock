@@ -1,0 +1,42 @@
+{
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"meta": {
+		"title": "Tier List Block",
+		"description": "TierMaker-style tier list block for the WordPress block editor.",
+		"author": "Phil Hoyt",
+		"categories": [ "blocks", "content" ]
+	},
+	"preferredVersions": {
+		"php": "8.2",
+		"wordpress": "latest"
+	},
+	"login": true,
+	"landingPage": "/wp-admin/post-new.php",
+	"steps": [
+		{
+			"step": "installPlugin",
+			"pluginData": {
+				"resource": "git:directory",
+				"url": "https://github.com/philhoyt/TierListBlock",
+				"ref": "feature/playground-blueprint",
+				"refType": "branch"
+			},
+			"options": {
+				"activate": true
+			}
+		},
+		{
+			"step": "setSiteOptions",
+			"options": {
+				"blogname": "Tier List Block Demo"
+			}
+		},
+		{
+			"step": "importWxr",
+			"file": {
+				"resource": "url",
+				"url": "https://raw.githubusercontent.com/philhoyt/TierListBlock/feature/playground-blueprint/_playground/demo.xml"
+			}
+		}
+	]
+}
