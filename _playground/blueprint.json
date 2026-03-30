@@ -11,7 +11,7 @@
 		"wp": "latest"
 	},
 	"login": true,
-	"landingPage": "/wp-admin/edit.php",
+	"landingPage": "/open-demo-post.php",
 	"steps": [
 		{
 			"step": "installPlugin",
@@ -35,6 +35,11 @@
 				"resource": "url",
 				"url": "https://raw.githubusercontent.com/philhoyt/TierListBlock/main/_playground/demo.xml"
 			}
+		},
+		{
+			"step": "writeFile",
+			"path": "/wordpress/open-demo-post.php",
+			"data": "<?php require_once 'wp-load.php'; $posts = get_posts( [ 'name' => 'best-gen-1-pokemon', 'post_type' => 'post', 'numberposts' => 1 ] ); if ( $posts ) { wp_redirect( admin_url( 'post.php?post=' . $posts[0]->ID . '&action=edit' ) ); } else { wp_redirect( admin_url( 'edit.php' ) ); } exit;"
 		}
 	]
 }
