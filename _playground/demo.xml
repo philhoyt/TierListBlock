@@ -31,8 +31,8 @@
 <!-- wp:tier-list/tier-list {"style":{"color":{"background":"#000000"}}} -->
 <div class="wp-block-tier-list-tier-list has-background" style="background-color:#000000">
 
-<!-- wp:tier-list/tier-item -->
-<div class="wp-block-tier-list-tier-item">
+<!-- wp:tier-list/tier-item {"style":{"color":{"background":"#1A1A18"}}} -->
+<div class="wp-block-tier-list-tier-item has-background" style="background-color:#1A1A18">
 <!-- wp:tier-list/tier-label {"style":{"color":{"background":"#FF7F7F"}}} -->
 <div class="wp-block-tier-list-tier-label has-background" style="background-color:#FF7F7F">
 <!-- wp:paragraph {"align":"center"} -->
@@ -46,8 +46,8 @@
 </div>
 <!-- /wp:tier-list/tier-item -->
 
-<!-- wp:tier-list/tier-item -->
-<div class="wp-block-tier-list-tier-item">
+<!-- wp:tier-list/tier-item {"style":{"color":{"background":"#1A1A18"}}} -->
+<div class="wp-block-tier-list-tier-item has-background" style="background-color:#1A1A18">
 <!-- wp:tier-list/tier-label {"style":{"color":{"background":"#FEBF7F"}}} -->
 <div class="wp-block-tier-list-tier-label has-background" style="background-color:#FEBF7F">
 <!-- wp:paragraph {"align":"center"} -->
@@ -61,8 +61,8 @@
 </div>
 <!-- /wp:tier-list/tier-item -->
 
-<!-- wp:tier-list/tier-item -->
-<div class="wp-block-tier-list-tier-item">
+<!-- wp:tier-list/tier-item {"style":{"color":{"background":"#1A1A18"}}} -->
+<div class="wp-block-tier-list-tier-item has-background" style="background-color:#1A1A18">
 <!-- wp:tier-list/tier-label {"style":{"color":{"background":"#FFDF80"}}} -->
 <div class="wp-block-tier-list-tier-label has-background" style="background-color:#FFDF80">
 <!-- wp:paragraph {"align":"center"} -->
@@ -76,8 +76,8 @@
 </div>
 <!-- /wp:tier-list/tier-item -->
 
-<!-- wp:tier-list/tier-item -->
-<div class="wp-block-tier-list-tier-item">
+<!-- wp:tier-list/tier-item {"style":{"color":{"background":"#1A1A18"}}} -->
+<div class="wp-block-tier-list-tier-item has-background" style="background-color:#1A1A18">
 <!-- wp:tier-list/tier-label {"style":{"color":{"background":"#FFFF7F"}}} -->
 <div class="wp-block-tier-list-tier-label has-background" style="background-color:#FFFF7F">
 <!-- wp:paragraph {"align":"center"} -->
@@ -91,8 +91,8 @@
 </div>
 <!-- /wp:tier-list/tier-item -->
 
-<!-- wp:tier-list/tier-item -->
-<div class="wp-block-tier-list-tier-item">
+<!-- wp:tier-list/tier-item {"style":{"color":{"background":"#1A1A18"}}} -->
+<div class="wp-block-tier-list-tier-item has-background" style="background-color:#1A1A18">
 <!-- wp:tier-list/tier-label {"style":{"color":{"background":"#C0FF7F"}}} -->
 <div class="wp-block-tier-list-tier-label has-background" style="background-color:#C0FF7F">
 <!-- wp:paragraph {"align":"center"} -->

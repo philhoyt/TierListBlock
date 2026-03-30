@@ -11,7 +11,7 @@
 		"wp": "latest"
 	},
 	"login": true,
-	"landingPage": "/wp-admin/post-new.php",
+	"landingPage": "/wp-admin/edit.php",
 	"steps": [
 		{
 			"step": "installPlugin",
