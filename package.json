@@ -1,6 +1,6 @@
 {
 	"name": "tier-list-block",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "TierMaker-style tier list block for the WordPress block editor.",
 	"author": "Phil Hoyt",
 	"license": "GPL-2.0-or-later",

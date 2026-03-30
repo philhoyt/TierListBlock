@@ -3,7 +3,7 @@ Contributors:      philhoyt
 Tags:              block, tier list, tiermaker, ranking
 Requires at least: 6.6
 Tested up to:      6.9
-Stable tag:        1.0.0
+Stable tag:        1.0.1
 Requires PHP:      7.4
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
@@ -25,6 +25,9 @@ The frontend output is static HTML — no JavaScript is loaded for visitors.
 5. Open any post or page in the block editor and search for **Tier List**.
 
 == Changelog ==
+
+= 1.0.1 =
+* Fixed: Prevent WordPress block editor from auto-transforming images into Gallery or Row blocks inside Tier Content.
 
 = 1.0.0 =
 * Initial release.

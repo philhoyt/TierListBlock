@@ -5,7 +5,7 @@
  * Description:       Create TierMaker-style tier lists natively in the block editor.
  * Requires at least: 6.6
  * Requires PHP:      7.4
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Phil Hoyt
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
