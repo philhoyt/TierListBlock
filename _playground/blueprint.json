@@ -7,8 +7,7 @@
 		"categories": [ "blocks", "content" ]
 	},
 	"preferredVersions": {
-		"php": "8.2",
-		"wordpress": "latest"
+		"php": "8.2"
 	},
 	"login": true,
 	"landingPage": "/wp-admin/post-new.php",
