@@ -15,10 +15,8 @@
 		{
 			"step": "installPlugin",
 			"pluginData": {
-				"resource": "git:directory",
-				"url": "https://github.com/philhoyt/TierListBlock",
-				"ref": "main",
-				"refType": "branch"
+				"resource": "url",
+				"url": "https://github.com/philhoyt/TierListBlock/releases/latest/download/tier-list-block.zip"
 			},
 			"options": {
 				"activate": true
