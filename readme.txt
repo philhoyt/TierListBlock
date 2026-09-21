@@ -3,7 +3,7 @@ Contributors:      philhoyt
 Tags:              block, tier list, tiermaker, ranking
 Requires at least: 6.6
 Tested up to:      6.9
-Stable tag:        1.0.2
+Stable tag:        1.0.3
 Requires PHP:      7.4
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
@@ -25,6 +25,9 @@ The frontend output is static HTML — no JavaScript is loaded for visitors.
 5. Open any post or page in the block editor and search for **Tier List**.
 
 == Changelog ==
+
+= 1.0.3 =
+* Fix: Restore the update checker's changelog parser files, which were missing from the 1.0.2 download and caused an error when checking for updates.
 
 = 1.0.2 =
 * Fix: Automatic updates from GitHub now work for sites running an earlier version. Release tags were named in a form the update checker did not recognise.
