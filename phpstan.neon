@@ -1,0 +1,17 @@
+includes:
+    - vendor/szepeviktor/phpstan-wordpress/extension.neon
+
+parameters:
+    level: 5
+    paths:
+        - tier-list.php
+    # Plugin Update Checker is vendored in lib/ and declares its classes
+    # conditionally, so load its autoloader rather than scanning the directory.
+    bootstrapFiles:
+        - lib/plugin-update-checker/plugin-update-checker.php
+    excludePaths:
+        - vendor
+        - node_modules
+        - build
+        - lib
+        - tests
