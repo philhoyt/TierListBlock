@@ -10,3 +10,6 @@ build/
 # Claude Code — local feature planning notes, not part of the codebase
 plans/
 .phpunit.result.cache
+
+# wp-env local override
+.wp-env.override.json
