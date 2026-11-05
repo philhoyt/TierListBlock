@@ -10,8 +10,8 @@ parameters:
     bootstrapFiles:
         - lib/plugin-update-checker/plugin-update-checker.php
     excludePaths:
-        - vendor
-        - node_modules
-        - build
-        - lib
-        - tests
+        - vendor (?)
+        - node_modules (?)
+        - build (?)
+        - lib (?)
+        - tests (?)
