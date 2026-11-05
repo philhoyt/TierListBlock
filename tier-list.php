@@ -27,7 +27,10 @@ $tier_list_update_checker = PucFactory::buildUpdateChecker(
 	__FILE__,
 	'tier-list-block'
 );
-$tier_list_update_checker->getVcsApi()->enableReleaseAssets();
+$tier_list_vcs_api        = $tier_list_update_checker->getVcsApi();
+if ( method_exists( $tier_list_vcs_api, 'enableReleaseAssets' ) ) {
+	$tier_list_vcs_api->enableReleaseAssets();
+}
 
 /**
  * Registers all four tier list blocks.
