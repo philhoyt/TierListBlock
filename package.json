@@ -17,7 +17,7 @@
 		"plugin-zip": "wp-scripts plugin-zip",
 		"start": "wp-scripts start",
 		"test:e2e": "wp-scripts test-playwright",
-		"test:php": "wp-env run tests-cli --env-cwd wp-content/plugins/tier-list-block -- vendor/bin/phpunit",
+		"test:php": "wp-env run tests-cli --env-cwd=wp-content/plugins/$(basename \"$PWD\") vendor/bin/phpunit",
 		"test:unit": "wp-scripts test-unit-js --passWithNoTests"
 	},
 	"files": [
