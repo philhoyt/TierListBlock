@@ -1,5 +1,7 @@
 # Tier List Block
 
+[![CI](https://github.com/philhoyt/TierListBlock/actions/workflows/ci.yml/badge.svg)](https://github.com/philhoyt/TierListBlock/actions/workflows/ci.yml)
+
 ![Tier List Block screenshot](assets/screenshot-1.png)
 
 [![Playground Demo](https://img.shields.io/badge/Playground_Demo-blue?logo=wordpress&logoColor=%23fff&labelColor=%233858e9&color=%233858e9)](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/philhoyt/TierListBlock/main/_playground/blueprint.json)
