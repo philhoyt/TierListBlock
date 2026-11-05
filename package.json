@@ -18,7 +18,7 @@
 		"start": "wp-scripts start",
 		"test:e2e": "wp-scripts test-playwright",
 		"test:php": "wp-env run tests-cli --env-cwd wp-content/plugins/tier-list-block -- vendor/bin/phpunit",
-		"test:unit": "wp-scripts test-unit-js"
+		"test:unit": "wp-scripts test-unit-js --passWithNoTests"
 	},
 	"files": [
 		"tier-list.php",
@@ -27,9 +27,12 @@
 		"lib"
 	],
 	"devDependencies": {
-		"@wordpress/env": "^11.17.0",
-		"@wordpress/eslint-plugin": "^24.5.0",
-		"@wordpress/scripts": "^31.8.0",
-		"@wordpress/stylelint-config": "^23.42.0"
+		"@wordpress/env": "^12.1.0",
+		"@wordpress/eslint-plugin": "^28.1.0",
+		"@wordpress/scripts": "^37.1.0",
+		"@wordpress/stylelint-config": "^27.1.0",
+		"prettier": "npm:wp-prettier@^3.9.6",
+		"vite": "^8.3.5",
+		"vitest": "^5.1.0"
 	}
 }
