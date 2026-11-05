@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       Tier List Block
- * Plugin URI:        https://wordpress.org/plugins/tier-list-block/
+ * Plugin URI:        https://github.com/philhoyt/TierListBlock
  * Description:       Create TierMaker-style tier lists natively in the block editor.
  * Requires at least: 6.6
  * Requires PHP:      7.4
