@@ -3,7 +3,7 @@ Contributors:      philhoyt
 Tags:              block, tier list, tiermaker, ranking
 Requires at least: 6.6
 Tested up to:      7.1
-Stable tag:        1.0.4
+Stable tag:        1.0.5
 Requires PHP:      7.4
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
@@ -40,6 +40,10 @@ No. Ranking happens in the editor; the published page is a static list.
 Those two blocks are blocked in the content zone. Without that, the editor turns images dropped next to each other into a Gallery, which breaks the row layout. Add images one at a time instead.
 
 == Changelog ==
+
+= 1.0.5 =
+* Fixed dashboard updates installing the release's readme.txt instead of the plugin zip (PCLZIP_ERR_BAD_FORMAT). Sites on 1.0.4 or earlier: upload this release's zip once; later updates arrive normally.
+* Pointed the Plugin URI at the GitHub repository and rewrote the readme files in plain English.
 
 = 1.0.4 =
 * Tested up to WordPress 7.1.
