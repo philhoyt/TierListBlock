@@ -29,7 +29,12 @@ $tier_list_update_checker = PucFactory::buildUpdateChecker(
 );
 $tier_list_vcs_api        = $tier_list_update_checker->getVcsApi();
 if ( method_exists( $tier_list_vcs_api, 'enableReleaseAssets' ) ) {
-	$tier_list_vcs_api->enableReleaseAssets();
+	// Only a .zip asset counts, and a release without one is skipped. The
+	// default PREFER_RELEASE_ASSETS falls back to GitHub's source archive,
+	// which installs as <Repo>-<tag>/ and breaks the plugin directory.
+	// Without the filter the first asset wins, GitHub lists assets by name,
+	// and readme.txt sorts ahead of tier-list-block.zip (PCLZIP_ERR_BAD_FORMAT).
+	$tier_list_vcs_api->enableReleaseAssets( '/\.zip$/', $tier_list_vcs_api::REQUIRE_RELEASE_ASSETS );
 }
 
 /**
